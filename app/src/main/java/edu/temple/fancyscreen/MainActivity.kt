@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<TextView>(R.id.extension).text = "2253"
 
-        findViewById<TextView>(R.id.department).text = "Design"
+        findViewById<TextView>(R.id.department).text = getText(R.string.department_position)
 
         findViewById<TextView>(R.id.supervisor).text = "Gail Davers"
 
